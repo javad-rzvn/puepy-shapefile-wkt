@@ -1,0 +1,20 @@
+{
+    "name": "PuePy Tutorial",
+    "debug": true,
+    "files": {
+        "./shapefile_wkt/__init__.py" : "shapefile_wkt/__init__.py",
+        "./shapefile_wkt/database.py" : "shapefile_wkt/database.py",
+        "./shapefile_wkt/main.py" : "shapefile_wkt/main.py"
+    },
+    "js_modules": {
+      "main": {
+        "https://cdn.jsdelivr.net/npm/morphdom@2.7.2/+esm": "morphdom"
+      }
+    },
+    "packages": [
+      "./puepy-0.4.6-py3-none-any.whl",
+      "sqlite3",
+      "geopandas",
+      "pandas"
+    ]
+  }
